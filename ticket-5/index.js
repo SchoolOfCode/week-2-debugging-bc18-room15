@@ -18,7 +18,7 @@ const shoppingCart = [    // a constant variable called shoppingCart
 
 let totalCost = 0;              // variable let called totalCost which has a value of O
 
-for (let i = 0; i <= shoppingCart.length; i++) {     // for loop with iteration 
+for (let i = 0; i < shoppingCart.length; i++) {     // for loop with iteration 
   let item = shoppingCart[i];                      // constant variable is declared called item, which has the value of hoppingCart[i]
   const costForItem = item.price * item.quantity;  // 
   totalCost += costForItem;
